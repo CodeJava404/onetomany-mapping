@@ -56,7 +56,7 @@ public class App {
 		session.save(student1);
 		session.flush();
 		tn.commit();
-
+		session.close();
 		/*
 		 * Student student=session.get(Student.class, 1); session.close();
 		 * 
