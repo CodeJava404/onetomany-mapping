@@ -58,7 +58,8 @@ public class App {
 		tn.commit();
 		session.close();
 		/*
-		 * Student student=session.get(Student.class, 1); session.close();
+		 
+		  dsfsdfStudent student=session.get(Student.class, 1); session.close();
 		 * 
 		 * 
 		 * 
